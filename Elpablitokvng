@@ -1,0 +1,18 @@
+components/Navbar.js
+export default function Navbar() {
+  return (
+    <nav style={{
+      display: "flex",
+      justifyContent: "space-between",
+      padding: 20,
+      background: "rgba(0,0,0,0.6)",
+      color: "white"
+    }}>
+      <strong>SmoJ</strong>
+      <div>
+        <a href="#" style={{ marginRight: 15 }}>Home</a>
+        <a href="#">Shop</a>
+      </div>
+    </nav>
+  );
+}
